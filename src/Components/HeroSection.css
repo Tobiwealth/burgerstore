@@ -1,0 +1,55 @@
+h1,h2{
+	font-size: 7rem;
+	text-align: center;
+	text-shadow: 2px 2px 5px #fff;
+	color: #552100;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	margin: 0;
+}
+h2{
+	font-size: 3rem;
+	margin: 0;
+}
+.hero-con{
+	background: url('/public/images/salmon.jpg') center center/cover no-repeat;
+	background-blend-mode: saturation;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+.con{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	
+}
+.btn-link{
+	text-align: center;
+	font-size: 2rem;
+	justify-self: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.btns{
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	transition: all 0.2s ease-out;
+	border-radius: 25px;
+	border-color: ;
+}
+.btns:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+@media screen and (max-width: 960px) {
+	.hero-con{
+		padding: 30px;
+		height: 600px;
+	}
+	.btns{
+		margin-bottom: 20px;
+	}
+}

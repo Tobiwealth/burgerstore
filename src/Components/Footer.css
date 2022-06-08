@@ -1,0 +1,91 @@
+.footer-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 1.2rem;
+	background: linear-gradient(90deg, rgb(255, 198, 123) 100%, rgb(255, 145, 1)0%);
+}
+.footer-input{
+	padding: 5px;
+	margin: 10px;
+}
+.footer-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shift{
+	margin-left: 0;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+li{
+	list-style: none;
+	margin: 5px;
+}
+.pad{
+	margin-bottom: 10px;
+}
+
+.button:hover{
+	transform: scale(1.1);
+}
+.adjust{
+	text-align: center;
+	margin-top: 0px;
+	justify-self: flex-start;
+	align-self: center;
+	height: 5px;
+}
+.correct{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 50px;
+}
+.contact{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 960px) {
+	.footer-container{
+		width: 100%;
+		position: relative;
+		top: 4700px;
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-icons{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+	}
+	.footer-logo{
+		align-self: center;
+		text-align: center;
+		font-size: 1.5rem;
+		margin-right: 4px;
+		padding: 0;
+	}
+	.shift{
+		margin-left: 0;
+	}
+	.button{
+		width: 20vw;
+	}
+}
