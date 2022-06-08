@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/burgerstore/static/css/main.f466501d.css",
+    "main.js": "/burgerstore/static/js/main.d3d2a5e5.js",
+    "static/js/787.21d17fcb.chunk.js": "/burgerstore/static/js/787.21d17fcb.chunk.js",
+    "static/media/salmon.jpg": "/burgerstore/static/media/salmon.28671967ea50da3c82c7.jpg",
+    "index.html": "/burgerstore/index.html",
+    "main.f466501d.css.map": "/burgerstore/static/css/main.f466501d.css.map",
+    "main.d3d2a5e5.js.map": "/burgerstore/static/js/main.d3d2a5e5.js.map",
+    "787.21d17fcb.chunk.js.map": "/burgerstore/static/js/787.21d17fcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f466501d.css",
+    "static/js/main.d3d2a5e5.js"
+  ]
+}
